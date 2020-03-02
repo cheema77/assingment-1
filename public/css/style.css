@@ -1,0 +1,122 @@
+.header {
+  margin-right: 5px;
+}
+.home {
+  text-align: center;
+  position: relative;
+}
+#home_img {
+  border: 5px solid white;
+  border-radius: 50%;
+  max-width: 250px;
+  max-height: 250px;
+}
+.body_color {
+  background: white;
+  /* background: #a1ffce;
+  background: -webkit-linear-gradient(to right, #faffd1, #a1ffce);
+  background: linear-gradient(to right, #faffd1, #a1ffce); */
+}
+
+.project-div {
+}
+
+.common {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.common > div {
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+}
+
+.quote-left {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.about-img {
+  margin: 10px;
+}
+
+/*Contact form box*/
+
+.form-box {
+  padding: 25px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 30px gray;
+  background: rgb(211, 211, 211);
+}
+
+/*Social Icons*/
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+.social {
+  text-align: center;
+}
+.social__item {
+  display: inline-block;
+  margin: 10px;
+}
+.social .fa {
+  background: #fff;
+  border-radius: 35px;
+  color: #818181;
+  cursor: pointer;
+  display: block;
+  font-size: 40px;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  position: relative;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.social .fa-facebook:hover {
+  box-shadow: 0 0 15px rgba(59, 89, 152, 0.5) inset;
+  color: #3b5998;
+}
+.social .fa-github:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5) inset;
+  color: #000000;
+}
+.social .fa-soundcloud:hover {
+  box-shadow: 0 0 15px rgba(255, 119, 0, 0.5) inset;
+  color: #ff7700;
+}
+.social .fa-quora:hover {
+  box-shadow: 0 0 15px rgba(203, 32, 39, 0.5) inset;
+  color: #b31d1a;
+}
+.social .fa-linkedin:hover {
+  box-shadow: 0 0 15px rgba(0, 123, 182, 0.5) inset;
+  color: #007bb6;
+}
+
+/*# sourceMappingURL=jquery.social-buttons.css.map */
+@media only screen and (max-width: 500px) {
+  .social .fa {
+    background: #fff;
+    border-radius: 35px;
+    color: #818181;
+    cursor: pointer;
+    display: block;
+    font-size: 15px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+    transition: all 0.2s;
+  }
+}

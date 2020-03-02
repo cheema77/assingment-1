@@ -1,0 +1,18 @@
+{
+  "name": "mysite",
+  "version": "1.0.0",
+  "description": "My portfolio in node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "Lk",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "nodemailer": "^4.6.7",
+    "typed.js": "^2.0.9"
+  }
+}
